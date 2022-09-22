@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/3.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.box{
+    border-radius: 20px;
+    width: 300px;
+    padding: 30px; 
+    
+    background-color: rgba(0,0,0,0.4);
+    box-shadow: 1px 1px 2px #ffc400ef;
+    display: flex;
+    flex-direction: column;
+}
+
+.box h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    align-self: center;
+}
+
+.box input[type="text"],
+.box input[type="password"]{
+    font-size: 20px;
+    border: 0;
+    background: none;
+    display:block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #0367fd;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: #fff;
+    border-radius: 24px;
+    transition: all .4s ease-in;
+    border-top: 25px;
+    border-bottom: 25px;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus{
+    width:250px;
+    border-color: #ffc400ef;
+    overflow: hidden;
+}
+
+.username,
+.password{
+    position: relative;
+}
+
+.fa-envelope,
+.fa-lock-open{
+    position: absolute;
+    left: 13px;
+    top: 40px;
+    color: rgb(256,256,256);
+}
+
+.wrapper{
+    display: flex;
+    height: 95vh;
+    align-content: center;
+    justify-content: center;
+}
+
+#btn{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px;
+    text-align: center;
+    border: 3px solid #ffc400ef;
+    padding: 14px 35px;
+    font-size: 18px;
+    color: rgb(256,256,256);
+    border-radius: 20px;
+    transition: all .4s ease-out;
+    cursor: pointer;
+    border: 5px;
+}
+
+#btn:hover{
+    background-color: #ffc400ef;
+
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+    left: 40px;
+    color: #ffc400ef;
+}
+
+footer{
+    color: #ffc400ef;
+}
